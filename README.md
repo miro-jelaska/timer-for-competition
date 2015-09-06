@@ -21,7 +21,7 @@
 # Short implementation notes
 ## States
 These are all the states and transitions (commands) in Timer.
-![All states and transition]()
+![All states and transition](https://raw.githubusercontent.com/MiroslavJelaska/timer-for-competition/master/readme-resources/StateDiagram.png)
 
 # Usage
 Timer used was used on _(this list may become outdated)_:
