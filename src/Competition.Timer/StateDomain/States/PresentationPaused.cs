@@ -1,6 +1,5 @@
 ﻿using System.Windows;
 using Competition.Timer.StateDomain.Time;
-using Competition.Timer.StateDomain;
 
 namespace Competition.Timer.StateDomain.States
 {

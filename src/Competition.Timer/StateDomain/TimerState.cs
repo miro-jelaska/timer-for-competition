@@ -1,8 +1,5 @@
 ﻿using System;
-using Competition.Timer;
-using Competition.Timer.StateDomain;
 using Competition.Timer.StateDomain.States;
-using Competition.Timer.StateDomain.Time;
 using Competition.Timer.StateDomain.Time;
 using FluentAssertions;
 
@@ -30,7 +27,7 @@ namespace Competition.Timer.StateDomain
         {
             newCommand.Should().NotBeNull();
 
-            var nextStateAndTimeTransferType = Competition.Timer.StateDomain.Rules.Transition.GetNextStateAndTimeTransferType(State, newCommand);
+            var nextStateAndTimeTransferType = Rules.Transition.GetNextStateAndTimeTransferType(State, newCommand);
             var nextState = nextStateAndTimeTransferType.Item1;
             var timeTransferType = nextStateAndTimeTransferType.Item2;
 
@@ -41,7 +38,7 @@ namespace Competition.Timer.StateDomain
 
             MainWindow.CurrenState = CreateTimerState(nextState, timeProvider);
 
-            if (Competition.Timer.StateDomain.Rules.Timer.IsTimerNotRunningForState(nextState))
+            if (Rules.Timer.IsTimerNotRunningForState(nextState))
                 MainWindow.DispatcherTimer.Stop();
             else
                 MainWindow.DispatcherTimer.Start();

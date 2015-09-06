@@ -1,5 +1,4 @@
 ﻿using System;
-using Competition.Timer.StateDomain.Time;
 using FluentAssertions;
 
 namespace Competition.Timer.StateDomain.Time

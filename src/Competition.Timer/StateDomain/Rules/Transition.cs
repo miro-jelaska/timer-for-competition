@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using Competition.Timer.StateDomain.Time;
-using Competition.Timer.StateDomain.Time;
 
 namespace Competition.Timer.StateDomain.Rules
 {

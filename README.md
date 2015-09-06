@@ -22,8 +22,10 @@
 ## States
 These are all the states and transitions (commands) in Timer.
 ![All states and transition](https://raw.githubusercontent.com/MiroslavJelaska/timer-for-competition/master/readme-resources/StateDiagram.png)
+* Time can be transfered between states using TimeProvider which is injected in state
+* All transitions are registered in Rules/Transition
 
 # Usage
-Timer used was used on _(this list may become outdated)_:
+Timer was used on _(this list may become outdated)_:
 * Microsoft ImagineCup final (27.3.2014., [FESB](https://www.fesb.unist.hr/))
 * DUMP Young Programmers Association - Internship competition (2015., [DUMP](http://www.dump.hr/))
