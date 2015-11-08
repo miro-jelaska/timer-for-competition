@@ -13,7 +13,7 @@ namespace Competition.Timer.StateDomain.Rules
             {Tuple.Create(State.Idle, Command.StartQuestions),    Tuple.Create(State.QuestionsRunning, TimeTransferType.None)},
 
             {Tuple.Create(State.PreparationRunning, Command.Pause),           Tuple.Create(State.PreparationPaused, TimeTransferType.Assignment)},
-            {Tuple.Create(State.PreparationRunning, Command.FinishedEarlier), Tuple.Create(State.PresentationRunning, TimeTransferType.Bonus)},
+            {Tuple.Create(State.PreparationRunning, Command.FinishedEarlier), Tuple.Create(State.PresentationRunning, TimeTransferType.None)},
             {Tuple.Create(State.PreparationRunning, Command.TimeExpired),     Tuple.Create(State.PresentationRunning, TimeTransferType.None)},
 
             {Tuple.Create(State.PreparationPaused, Command.Continue), Tuple.Create(State.PreparationRunning, TimeTransferType.Assignment)},

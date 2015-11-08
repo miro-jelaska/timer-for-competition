@@ -44,7 +44,10 @@ namespace Competition.Timer
         }
         private string TimespanToString(TimeSpan timeSpan)
         {
-            return $"{((int)timeSpan.TotalSeconds) / 60}:{((int)timeSpan.TotalSeconds) % 60}";
+            return
+                (timeSpan.TotalSeconds < 60)
+                    ? ((int)timeSpan.TotalSeconds).ToString()
+                    : $"{((int)timeSpan.TotalSeconds) / 60}:{((int)timeSpan.TotalSeconds) % 60}";
         }
 
         private void PreparationButton_Click(object sender, RoutedEventArgs e)
