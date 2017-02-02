@@ -1,4 +1,9 @@
 # Competition timer
+
+Have some questions or want to give a feedback? You can send me a <a href="mailto:mjelaska.public@gmail.com">an email ✉️</a>
+
+**NOTE:** Do you like it? Show it by giving a ⭐️. 🚀
+
 ![Screenshot](https://raw.githubusercontent.com/MiroslavJelaska/timer-for-competition/master/readme-resources/Screenshot.png)
 ## Timer has following primary steps:
 0. Idle state (Menu)
