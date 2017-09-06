@@ -1,10 +1,8 @@
 # Competition timer
-
-Have some questions or want to give a feedback? You can send me a <a href="mailto:mjelaska.public@gmail.com">an email ✉️</a>
-
-**NOTE:** Do you like it? Show it by giving a ⭐️. 🚀
+Timer with multiple states and ability transfer time between them.
 
 ![Screenshot](https://raw.githubusercontent.com/MiroslavJelaska/timer-for-competition/master/readme-resources/Screenshot.png)
+
 ## Timer has following primary steps:
 0. Idle state (Menu)
 1. Preparation time
@@ -35,3 +33,8 @@ These are all the states and transitions (commands) in Timer.
 Timer was used on _(this list may become outdated)_:
 * Microsoft ImagineCup final (27.3.2014., [FESB](https://www.fesb.unist.hr/))
 * DUMP Young Programmers Association - Internship competition (2015., [DUMP](http://www.dump.hr/))
+
+# Contact
+Have some questions or want to give a feedback? You can send me a <a href="mailto:mjelaska.public@gmail.com">an email ✉️</a>
+
+**NOTE:** Do you like it? Show it by giving a ⭐️. 🚀
